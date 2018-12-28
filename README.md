@@ -1,28 +1,16 @@
-# NewsApp1
+# NewsApp
+This project uses https://newsapi.org/docs/endpoints/top-headlines to fetch the top news and list it down.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.3.
+## Task 1
+- Refer /v2/top-headlines of News API to understand the filter mechanism and restrict result listing based on users search query.
+- Complete the search functionality for the search button in the header.
+- On click on the search button, a search panel should slide down with input field. Refer https://material.angular.io/components/input/overview to understand materials component for input field.
+- On click on search, respective search listing should be fetched and displayed in the app.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Task 2
+- On the sidebar, theres multiple news provider source listed.
+- On clicking on any of the source should filter the news listing only to that respective source provider.
+- The selected source providers name should be shown below the header with close button.
+- On clicking on close icon should remove the respective source providers from the filter list.
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
